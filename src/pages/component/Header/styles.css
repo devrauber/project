@@ -1,0 +1,28 @@
+.container{
+    height: 100px;
+    display: flex;
+    background-color: #00460a;
+    width: 100%;
+    z-index: 99;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    margin-left: 90px;
+    width: 100px;
+    height: 100px;
+}
+
+.menuRight{
+    text-decoration: none;
+    color: #fac3da;
+    margin-right: 90px;
+}
+
+.divMenuRight{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

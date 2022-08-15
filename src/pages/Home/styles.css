@@ -1,0 +1,45 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.box li{
+    display: flex;
+    flex-direction: column;
+    background-color: #fac3da;
+    border-radius: 4px;
+    padding: 10px;
+    margin:7px
+}
+
+.box img{
+    max-width: 280px;
+    max-height: 220px;
+    border-radius: 4px;
+}
+
+.box strong{
+    font-size: 16px;
+    max-width: 280px;
+    line-height: 20px;
+    color:black;
+    margin-top: 10px;
+}
+
+.box button{
+    max-width: 280px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00460a;
+    color: #fac3da;
+    border: none
+}
+
+.box button span{
+    margin-left: 5px;
+}
