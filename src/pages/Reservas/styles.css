@@ -24,15 +24,14 @@
 
 .reservas button{
     border-radius: 4px;
+    margin-left: 15px;
+    background-color: transparent;
+    border: none;
 }
 
 .imgAndTitle{
     display: flex;
     align-items: center;
-}
-
-.reservas span{
-    margin-right: 15px;
 }
 
 .quantityAndButton{
@@ -59,4 +58,21 @@ footer button{
 footer button:hover {
     background-color: #00460a;
     color: #fac3da;
+}
+
+.buttonsToQuantity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonsToQuantity span{
+    margin-bottom: 3px;
+}
+
+.buttonsToQuantity button{
+    border: 0;
+    background-color: transparent;
+    margin-left: 3px;
+    margin-right: 3px;
 }

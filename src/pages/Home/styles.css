@@ -12,7 +12,8 @@
     background-color: #fac3da;
     border-radius: 4px;
     padding: 10px;
-    margin:7px
+    margin:7px;
+    height: 300px;
 }
 
 .box img{
@@ -37,7 +38,11 @@
     justify-content: center;
     background-color: #00460a;
     color: #fac3da;
-    border: none
+    border: none;
+}
+
+.box span{
+    height: 60%;
 }
 
 .box button span{
